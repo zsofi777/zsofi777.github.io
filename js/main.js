@@ -72,7 +72,44 @@ $('a').smoothScroll({
 		$(".video__item_poster").addClass("poster_hide");
 		$("iframe.video__item").attr("src", "https://player.vimeo.com/video/212731897?	color=ffffff&title=0&byline=0&autoplay=1");
 	});
-	
+
+//	skills owl-carousel
+//	***********************************
+var owl = $("#skills .owl-carousel"),
+next = $(".arrow_front"),
+prev = $(".arrow_back");
+
+owl.owlCarousel({
+	loop: true,
+	margin: 10,
+	responsiveClass: true,
+	rewind: false,
+	dots: false,
+	responsive: {
+		0: {
+			items:1
+		},
+		480: {
+			items:2
+		},
+		1024: {
+			items:3
+		}
+	}
+});
+
+// Go to the next item
+$('.arrow_front').click(function(event) {
+		owl.trigger('next.owl.carousel');
+});
+
+// Go to the previous item
+$('.arrow_back').click(function(event) {
+		// With optional speed parameter
+		// Parameters has to be in square bracket '[]'
+		owl.trigger('prev.owl.carousel', [300]);
+});
+
 //	services owl-carousel
 //	***********************************
 		var owl = $("#services .owl-carousel"),
@@ -195,7 +232,7 @@ $('a').smoothScroll({
 			},
 			zoom: {
 				enabled: true,
-				duration: 300, // don't foget to change the duration also in CSS
+				duration: 300, // don't forget to change the duration also in CSS
 				opener: function(element) {
 					return element.find('img');
 				}
