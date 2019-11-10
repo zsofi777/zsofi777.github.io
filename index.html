@@ -37,7 +37,7 @@
 			<button class="btn_nav"><i class="icon-menu"></i></button>
 
 			<nav class="navigation header__nav">
-				<ul class="nav__list">
+				<ul class="nav__list" id="nav__listId">
 					<li class="nav__item current"><a href="#about" class="nav__link"><span class="nav__item_underline"></span>About</a></li>
 					<li class="nav__item"><a href="#services" class="nav__link"><span class="nav__item_underline"></span>Services</a></li>
 					<li class="nav__item"><a href="#works" class="nav__link"><span class="nav__item_underline"></span>Projects</a></li>
@@ -55,7 +55,7 @@
 		<div class="slider__item slider__item_1">
 			<div class="container">
 				<div class="slider__wrapper">
-					<span class="item__text">Hi, my name is Zsofi and I'm a</span><span class="item__text" style="color:#2bf4a1; padding: 0px; font-size: 50%;">wannabe</span><span class="item__text">designer.</span>
+					<span class="item__text">Hi, my name is Zsofi and I'm a</span><span class="item__text" id="wannabe">wannabe</span><span class="item__text">designer.</span>
 					<h1 class="item__text item__text_big">I'm focused on creating coherent and aesthetically pleasing visual languages.</h1>
 				</div>
 			</div>
@@ -111,6 +111,7 @@
 			<div class="row">
 				<div class="about__text col-xs-12 col-md-6">
 					<h2 class="text__header">About</h2>
+					<hr class="services__line" id="about_line">
 					<p class="text__par">As a career changing Statistician presently I am searching for a great opportunity to collaborate with other Developers and work closely with Clients, to improve my skills, knowledge and experience. And never stop learning.</p>
 					<a href="https://raw.githubusercontent.com/zsofi777/phonegap_jquery-mobile-app/master/Zsofia_Kovago_CV.jpg" rel="nofollow" class="text__button">Check out my CV</a>
 				</div>
@@ -124,6 +125,7 @@
 		<div class="container">
 			<div class="services__header-block" id="skills_header-block">				
 				<h2 class="services__header col-xs-12 col-sm-6"  id="skills_header-col">Skills</h2>
+
 			</div>
 				<hr class="services__line" id="skills_line">
 
@@ -165,32 +167,17 @@
 			<div class="services__header-block">
 				
 				<h2 class="services__header col-xs-12 col-sm-6">Services</h2>
-				<!--
-				<div class="arrow-controls col-xs-12 col-sm-6">
-					
-			 arrows
-					<div class="arrow arrow_back">
-						<div class="arrow__line-short arrow__line_up"></div>
-						<div class="arrow__line"></div>
-						<div class="arrow__line-short arrow__line_down"></div>
-					</div>
-						
-					<div class="arrow arrow_front">
-						<div class="arrow__line-short arrow__line_up"></div>
-						<div class="arrow__line"></div>
-						<div class="arrow__line-short arrow__line_down"></div>
-					</div>
-						
-				</div>
-			-->	
+				
+				
+
 			</div>
 			<hr class="services__line">
 
-<!-- carousel container			 -->
+<!-- carousel container-->
 			<div class="owl-carousel owl-theme">
 				<div class="item">
 					<div class="services__item">
-						<h3>Websites & Web Apps</h3>
+						<h3 id="services__item_h3">Websites & Web Apps</h3>
 						<p class="services__item__text">This is where problem solving meets visual impact. I’ll unite products and users, design and experiences.</p>
 						<ul class="services__list">
 							<li>Figma, Adobe XD, Sass</li>
@@ -233,6 +220,7 @@
 			<!-- header and buttons of the gallery -->
 				<div class="works__header">
 					<h2 class="col-xs-12 col-sm-3">Projects</h2>
+					<hr class="services__line" id="about_line">
 					<nav class="works__header__nav col-xs-12 col-sm-9">
 						<button data-filter="*" class="works__nav__item works__nav__item_active"><span class="works__button_underline"></span>All</button>
 						<button data-filter=".figma" class="works__nav__item"><span class="works__button_underline"></span>Figma</button>
@@ -446,6 +434,7 @@
 			<div class="row">
 				<div class="contact__inf col-xs-12 col-sm-6">
 					<h2 id="contact" class="section">Contact me</h2>
+					<hr class="services__line" id="about_line">
 
 					<p class="contact__text">
 							Give me a
@@ -630,7 +619,7 @@
         ];
 
         $('.gallery__items').portfolio_addon({
-            load_count : 2,
+            load_count : 4,
             items : items_set
         });
     </script>
