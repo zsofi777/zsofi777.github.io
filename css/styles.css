@@ -2,6 +2,12 @@ body {
   font-family: "Source Code Pro", monospace;
 }
 
+@media screen and (max-width: 991px) {
+  body {
+    width: 90%;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -261,8 +267,8 @@ ol {
 }
 
 #wannabe {
-  color:#2bf4a1; 
-  padding: 0px; 
+  color: #2bf4a1;
+  padding: 0px;
   font-size: 50%;
 }
 
@@ -392,6 +398,7 @@ ol {
     opacity: 0.4;
     left: 0px;
     top: 620px;
+    width: 85%;
   }
 }
 
@@ -427,7 +434,9 @@ h2.text__header {
 
 @media screen and (max-width: 991px) {
   p.text__par {
-    margin-top: 80px;
+    margin-top: 50px;
+    width: 90%;
+    line-height: 22px;
   }
   .about {
     font-weight: bold;
@@ -598,11 +607,16 @@ h2.text__header {
   margin-right: 20px;
 }
 
-
+@media screen and (max-width: 991px) {
+  div.services__item {
+    width: 90%;
+  }
+}
 
 .services__item__text {
   line-height: 28px;
   text-align: justify;
+  font-size: 14px;
 }
 
 .services__list {
@@ -707,6 +721,10 @@ h2.text__header {
 @media screen and (max-width: 991px) {
   .works__header__nav.col-xs-12.col-sm-9 {
     text-align: center;
+    width: 90%;
+  }
+  div.slider__wrapper {
+    width: 80%;
   }
 }
 
@@ -1440,6 +1458,7 @@ h2.text__header {
   .contactImg {
     opacity: 0.3;
     left: 0px;
+    width: 85%;
   }
 }
 
@@ -1482,7 +1501,8 @@ h2.text__header {
 }
 
 @media screen and (max-width: 991px) {
-  p.contact__text, address {
+  p.contact__text,
+  address {
     font-weight: bold;
   }
 }
@@ -1742,7 +1762,7 @@ h2.text__header {
   }
 
   .nav__item {
-  font-size: 12px;
+    font-size: 12px;
   }
 
   .logo__item {
@@ -1756,7 +1776,7 @@ h2.text__header {
     left: -5px;
     top: 0px;
   }
-/*
+  /*
   .nav__item:last-child {
     margin-bottom: 0;
   }
@@ -1820,13 +1840,17 @@ h2.text__header {
   }
 }
 
-@media only screen and (max-width: 341px) {
+@media only screen and (max-width: 415px) {
   header.header {
-    margin: 5px;
-    padding: 2px;
+    margin: 0px;
+    padding: 0px;
   }
 
-  div.inner-header.container{
+  header.header_sticky {
+    width: 90%;
+  }
+
+  div.inner-header.container {
     margin: 5px;
     padding: 2px;
   }
@@ -1835,8 +1859,8 @@ h2.text__header {
     position: absolute;
     margin-top: 2px;
     margin-bottom: 2px;
-    right: 5px;
-    top: 25px;
+    right: 110px;
+    top: 30px;
     float: left;
   }
 
@@ -1844,8 +1868,8 @@ h2.text__header {
     position: absolute;
     margin-top: 2px;
     margin-bottom: 2px;
-    right: 5px;
-    top: 25px;
+    right: 70px;
+    top: 30px;
   }
 
   li.nav__item {
@@ -1853,7 +1877,7 @@ h2.text__header {
   }
 
   .nav__item {
-  font-size: 10px;
+    font-size: 10px;
   }
 
   .header__logo {
@@ -1864,6 +1888,36 @@ h2.text__header {
   header.header.header_sticky a.logo__item {
     width: 0px;
     height: 0px;
+  }
+
+  .pointer-container_left {
+    left: -20px;
+  }
+
+  .pointer-container_right {
+    right: 25px;
+  }
+
+  .pointer-container {
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    top: 90%;
+  }
+
+  h1.item__text.item__text_big {
+    width: 100%;
+    padding: 0px;
+    line-height: 35px;
+    text-align: justify;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  section#services {
+    width: 100%;
   }
 }
 
@@ -1932,7 +1986,7 @@ h2.text__header {
 
   .item__text_big {
     margin-top: 10px;
-    font-size: 21px;
+    font-size: 18px;
   }
 
   .pointer_bottom {
