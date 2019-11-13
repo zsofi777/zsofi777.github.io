@@ -40,7 +40,7 @@
 				<ul class="nav__list" id="nav__listId">
 					<li class="nav__item current"><a href="#about" class="nav__link"><span class="nav__item_underline"></span>About</a></li>
 					<li class="nav__item"><a href="#services" class="nav__link"><span class="nav__item_underline"></span>Services</a></li>
-					<li class="nav__item"><a href="#works" class="nav__link"><span class="nav__item_underline"></span>Projects</a></li>
+					<li class="nav__item"><a href="#projects" class="nav__link"><span class="nav__item_underline"></span>Projects</a></li>
 					<li class="nav__item"><a href="#contact" class="nav__link"><span class="nav__item_underline"></span>Contact</a></li>
 				</ul>
 			</nav>
@@ -55,8 +55,13 @@
 		<div class="slider__item slider__item_1">
 			<div class="container">
 				<div class="slider__wrapper">
+					<!--
 					<span class="item__text">Hi, my name is Zsofi and I'm a</span><span class="item__text" id="wannabe">wannabe</span><span class="item__text">designer.</span>
 					<h1 class="item__text item__text_big">I'm focused on creating coherent and aesthetically pleasing visual languages.</h1>
+				</div>
+				-->
+					<span class="item__text">Hi, my name is Zsofi.</span>
+					<h1 class="item__text item__text_big">I'm a junior full-stack developer.</h1>
 				</div>
 			</div>
 		</div>
@@ -111,7 +116,7 @@
 			<div class="row">
 				<div class="about__text col-xs-12 col-md-6">
 					<h2 class="text__header">About</h2>
-					<hr class="services__line" id="about_line">
+					<hr class="about__line">
 					<p class="text__par">As a career changing Statistician presently I am searching for a great opportunity to collaborate with other Developers and work closely with Clients, to improve my skills, knowledge and experience. And never stop learning.</p>
 					<a href="https://raw.githubusercontent.com/zsofi777/phonegap_jquery-mobile-app/master/Zsofia_Kovago_CV.jpg" rel="nofollow" class="text__button">Check out my CV</a>
 				</div>
@@ -120,107 +125,154 @@
 			<div class="aboutImg"></div>
 		</div>
 	</section>
-<!-- skills		 -->	
-	<section id="skills" class="services section">
+	
+<!--	Section with video
+*****************************
+	<section class="video">
+		<iframe class="video__item" src="https://player.vimeo.com/video/212731897?	color=ffffff&title=0&byline=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		-->
+<!-- foreground video poster 
+		<div class="video__item video__item_poster">
+			<button class="poster__play-button">
+				<span class="play-outline"></span>
+			</button>
+		</div>
+	</section>-->
+	
+<!--	Skills
+*****************************-->
+	<section id="skills" class="skills section">
 		<div class="container">
-			<div class="services__header-block" id="skills_header-block">				
-				<h2 class="services__header col-xs-12 col-sm-6"  id="skills_header-col">Skills</h2>
+			<div class="skills__header-block">				
+				<h2 class="skills__header col-xs-12 col-md-3">my skills</h2>	
+
+				<div class="skills_arrow-controls col-xs-12 col-sm-6">
+					
+					<!-- arrows -->
+							<div class="skills_arrow skills_arrow_back">
+								<div class="skills_arrow__line-short skills_arrow__line_up"></div>
+								<div class="skills_arrow__line"></div>
+								<div class="skills_arrow__line-short skills_arrow__line_down"></div>
+							</div>
+								
+							<div class="skills_arrow skills_arrow_front">
+								<div class="skills_arrow__line-short skills_arrow__line_up"></div>
+								<div class="skills_arrow__line"></div>
+								<div class="skills_arrow__line-short skills_arrow__line_down"></div>
+							</div>
+								
+						</div>
 
 			</div>
-				<hr class="services__line" id="skills_line">
+		</div>
+		<hr class="skills__line">
 
-<!-- carousel container		 -->
+<!-- carousel container			 -->
 			<div class="owl-carousel owl-theme">
 				<div class="item">
-					<div class="services__item">
+					<div class="skills__item">
 						<h3>Tools & technologies</h3>
-						<p class="services__item__text">HTML <i class="fas fa-angle-right"></i> CSS <i class="fas fa-angle-right"></i> JavaScript <i class="fas fa-angle-right"></i> TypeScript <i class="fas fa-angle-right"></i>
-								React.js <i class="fas fa-angle-right"></i> Redux.js <i class="fas fa-angle-right"></i> Express.js <i class="fas fa-angle-right"></i> SAGA <i class="fas fa-angle-right"></i>
-								MongoDB <i class="fas fa-angle-right"></i> SQL <i class="fas fa-angle-right"></i> Mocha <i class="fas fa-angle-right"></i> REST API <i class="fas fa-angle-right"></i> Node.js
-								<i class="fas fa-angle-right"></i> C <i class="fas fa-angle-right"></i> C++ <i class="fas fa-angle-right"></i> Embedded C <i class="fas fa-angle-right"></i> Google Test <i class="fas fa-angle-right"></i>
-								SPSS <i class="fas fa-angle-right"></i> R <i class="fas fa-angle-right"></i> Git <i class="fas fa-angle-right"></i> Github <i class="fas fa-angle-right"></i> Command Prompt
-								<i class="fas fa-angle-right"></i> Atom <i class="fas fa-angle-right"></i> Visual Studio <i class="fas fa-angle-right"></i> Clion <i class="fas fa-angle-right"></i> Microsoft
-								Office</p>
+						<p class="skills__item__text">HTML <i class="fas fa-angle-right"></i> CSS <i class="fas fa-angle-right"></i> JavaScript <i class="fas fa-angle-right"></i> TypeScript <i class="fas fa-angle-right"></i>
+							React.js <i class="fas fa-angle-right"></i> Redux.js <i class="fas fa-angle-right"></i> Express.js <i class="fas fa-angle-right"></i> SAGA <i class="fas fa-angle-right"></i>
+							MongoDB <i class="fas fa-angle-right"></i> SQL <i class="fas fa-angle-right"></i> Mocha <i class="fas fa-angle-right"></i> REST API <i class="fas fa-angle-right"></i> Node.js
+							<i class="fas fa-angle-right"></i> C <i class="fas fa-angle-right"></i> C++ <i class="fas fa-angle-right"></i> Embedded C <i class="fas fa-angle-right"></i> Google Test <i class="fas fa-angle-right"></i>
+							SPSS <i class="fas fa-angle-right"></i> R <i class="fas fa-angle-right"></i> Git <i class="fas fa-angle-right"></i> Github <i class="fas fa-angle-right"></i> Command Prompt
+							<i class="fas fa-angle-right"></i> Atom <i class="fas fa-angle-right"></i> Visual Studio <i class="fas fa-angle-right"></i> Clion <i class="fas fa-angle-right"></i> Microsoft
+							Office</p>
 					</div>
 				</div>
 				<div class="item">
-					<div class="services__item">
+					<div class="skills__item">
 						<h3>Industry knowledge</h3>
-						<p class="services__item__text">Programming <i class="fas fa-angle-right"></i> UI Design <i class="fas fa-angle-right"></i> Statistics <i class="fas fa-angle-right"></i> Research
-								<i class="fas fa-angle-right"></i> Marketing</p>
+						<p class="skills__item__text">Programming <i class="fas fa-angle-right"></i> UI Design <i class="fas fa-angle-right"></i> Statistics <i class="fas fa-angle-right"></i> Research
+							<i class="fas fa-angle-right"></i> Marketing</p>
 					</div>
 				</div>
 				<div class="item">
-					<div class="services__item">
+					<div class="skills__item">
 						<h3>Soft skills</h3>
-						<p class="services__item__text">Empathy <i class="fas fa-angle-right"></i> Communication <i class="fas fa-angle-right"></i> Teamwork <i class="fas fa-angle-right"></i> Management
-								<i class="fas fa-angle-right"></i> Problem Solving <i class="fas fa-angle-right"></i> Lifelong Learning</p>
+						<p class="skills__item__text">Empathy <i class="fas fa-angle-right"></i> Communication <i class="fas fa-angle-right"></i> Teamwork <i class="fas fa-angle-right"></i> Management
+							<i class="fas fa-angle-right"></i> Problem Solving <i class="fas fa-angle-right"></i> Lifelong Learning</p>
 					</div>
-				</div>
+				</div>								
 			</div>
 		</div>
 	</section>
+
 <!--	Services
 *****************************-->
 	<section id="services" class="services section">
 		<div class="container">
-			<div class="services__header-block">
-				
-				<h2 class="services__header col-xs-12 col-sm-6">Services</h2>
-				
-				
+			<div class="services__header-block">			
+				<h2 class="services__header col-xs-12 col-sm-6">Services</h2>		
+
+				<div class="services_arrow-controls col-xs-12 col-sm-6">
+					
+			<!-- arrows -->
+					<div class="services_arrow services_arrow_back">
+						<div class="services_arrow__line-short services_arrow__line_up"></div>
+						<div class="services_arrow__line"></div>
+						<div class="services_arrow__line-short services_arrow__line_down"></div>
+					</div>
+						
+					<div class="services_arrow services_arrow_front">
+						<div class="services_arrow__line-short services_arrow__line_up"></div>
+						<div class="services_arrow__line"></div>
+						<div class="services_arrow__line-short services_arrow__line_down"></div>
+					</div>
+						
+				</div>
 
 			</div>
 			<hr class="services__line">
 
-<!-- carousel container-->
+	<!-- carousel container			 -->
 			<div class="owl-carousel owl-theme">
 				<div class="item">
 					<div class="services__item">
 						<h3 id="services__item_h3">Websites & Web Apps</h3>
-						<p class="services__item__text">This is where problem solving meets visual impact. I’ll unite products and users, design and experiences.</p>
-						<ul class="services__list">
-							<li>Figma, Adobe XD, Sass</li>
-							<li>JavaScript, HTML 5, jQuery, MySQL </li>
-						</ul>
+							<p class="services__item__text">This is where problem solving meets visual impact. I’ll unite products and users, design and experiences.</p>
+							<ul class="services__list">
+								<li>Figma, Adobe XD, Sass</li>
+								<li>JavaScript, HTML 5, jQuery, MySQL </li>
+							</ul>
 					</div>
 				</div>
 				<div class="item">
 					<div class="services__item">
 						<h3>Mobile App Design</h3>
-						<p class="services__item__text">Using iOS, Android and an experienced vision, I’ll take your application to the next level.</p>
-						<ul class="services__list">
-							<li>React Native, PhoneGap</li>
-							<li>jQuery Mobile</li>
-							<li>REST, JSON</li>
-						</ul>
+							<p class="services__item__text">Using iOS, Android and an experienced vision, I’ll take your application to the next level.</p>
+							<ul class="services__list">
+								<li>React Native, PhoneGap</li>
+								<li>jQuery Mobile</li>
+								<li>REST, JSON</li>
+							</ul>
 					</div>
 				</div>
 				<div class="item">
 					<div class="services__item">
 						<h3>Front End Development</h3>
-						<p class="services__item__text">I’ll help you to bridge the gap between design and development. Creating smart user interface.</p>
-						<ul class="services__list">
-							<li>React.js, Vue.js</li>
-							<li>Redux-Saga</li>
-							<li>Mocha</li>
-						</ul>
+							<p class="services__item__text">I’ll help you to bridge the gap between design and development. Creating smart user interface.</p>
+							<ul class="services__list">
+								<li>React.js, Vue.js</li>
+								<li>Redux-Saga</li>
+								<li>Mocha</li>
+							</ul>
 					</div>
-				</div>
+				</div>		
 			</div>
 		</div>
 	</section>
 	
 <!--	Works gallery
 *********************************-->
-	<section id="works" class="works section">
+	<section id="projects" class="works section">
 		<div class="container">
-
 			<div class="row">
 			<!-- header and buttons of the gallery -->
 				<div class="works__header">
-					<h2 class="col-xs-12 col-sm-3">Projects</h2>
-					<hr class="services__line" id="about_line">
+					<h2 class="col-xs-12 col-sm-3" id="projects__h2">Projects</h2>
+					<hr class="projects__line">
 					<nav class="works__header__nav col-xs-12 col-sm-9">
 						<button data-filter="*" class="works__nav__item works__nav__item_active"><span class="works__button_underline"></span>All</button>
 						<button data-filter=".figma" class="works__nav__item"><span class="works__button_underline"></span>Figma</button>
@@ -239,126 +291,127 @@
 			<!-- gallery container -->
 				<div class="gallery__items">
 
-					<!-- gallery item1 -->
-					<div class="gallery__item gallery__item_1 col-xs-12 col-sm-6 jquery">
-						<div class="gallery__item__hover">
-							<span class="item__hover__line"></span><span class="item__hover__tag">jQuery</span>
-							
-							<h3 class="item__hover__header"><a href="sub1.html">a nice music player</h3></a>
-							<h4 class="item__hover__header-small">jQuery / html / css</h4>
-							<h5 class="item__hover__header-xs"><a href="https://github.com/zsofi777/audio-player">open in GitHub</a></h5>
-							
-							<a href="https://raw.githubusercontent.com/zsofi777/audio-player/master/screenShots/screenShot1.jpg" rel="nofollow" class="item__hover__zoom" title="audio player">
-								<img src="https://raw.githubusercontent.com/zsofi777/audio-player/master/screenShots/screenShot1.jpg" alt>
-								+&nbsp;Zoom
-							</a>
-						</div>
-					</div>
-
-					<!-- gallery item2 -->	
-					<div class="gallery__item gallery__item_2 col-xs-12 col-sm-6 reactnative">
-						<div class="gallery__item__hover">
-							<span class="item__hover__line"></span><span class="item__hover__tag">ReactNative</span>
-							
-							<h3 class="item__hover__header"><a href="sub2.html">a ReactNative mobile app</h3></a>
-							<h4 class="item__hover__header-small">ReactNative / React Hooks / Expo / Nodejs</h4>
-							<h5 class="item__hover__header-xs"><a href="https://github.com/zsofi777/first-mobile-app">open in GitHub</a></h5>
+				<!-- gallery item1 -->
+				<div class="gallery__item gallery__item_1 col-xs-12 col-sm-6 jquery">
+					<div class="gallery__item__hover">
+						<span class="item__hover__line"></span><span class="item__hover__tag">jQuery</span>
 						
-							<a href="https://raw.githubusercontent.com/zsofi777/first-mobile-app/master/ScreenShots/rnApp1.png" rel="nofollow" class="item__hover__zoom" title="ReactNative mobile app">
-								<img src="https://raw.githubusercontent.com/zsofi777/first-mobile-app/master/ScreenShots/rnApp1.png" alt>
-								+&nbsp;Zoom
-							</a>
-
-						</div>
-					</div>
-				
-					<!-- gallery item3 -->	
-					<div class="gallery__item gallery__item_3 col-xs-12 col-sm-6 phonegap">
-						<div class="gallery__item__hover">
-							<span class="item__hover__line"></span><span class="item__hover__tag">PhoneGap</span>
-							
-							<h3 class="item__hover__header"><a href="sub3.html"> a PhoneGap portfolio mobile app</h3></a>
-							<h4 class="item__hover__header-small">PhoneGap / jQuery Mobile</h4>
-							<h5 class="item__hover__header-xs"><a href="https://github.com/zsofi777/phonegap_jquery-mobile-app/tree/master/phonegap_jquery-mobile-app">open in GitHub</a></h5>
-							
-							<a href="https://raw.githubusercontent.com/zsofi777/phonegap_jquery-mobile-app/master/screenShots/1.png" rel="nofollow" class="item__hover__zoom" title="PhoneGap mobile app">
-								<img src="https://raw.githubusercontent.com/zsofi777/phonegap_jquery-mobile-app/master/screenShots/1.png" alt>
-								+&nbsp;Zoom
-							</a>
-
-						</div>
-					</div>
-
-					<!-- gallery item4 -->
-					<div class="gallery__item gallery__item_4 col-xs-12 col-sm-6 figma">
-						<div class="gallery__item__hover">
-							<span class="item__hover__line"></span><span class="item__hover__tag">Figma</span>
-							
-							<h3 class="item__hover__header"><a href="sub4.html">made with Figma</h3></a>
-							<h4 class="item__hover__header-small">a chat app</h4>
-							<h5 class="item__hover__header-xs"><a href="https://github.com/zsofi777/figma-projects">open in GitHub</a></h5>
+						<h3 class="item__hover__header"><a href="sub1.html">a nice music player</h3></a>
+						<h4 class="item__hover__header-small">jQuery / html / css</h4>
+						<h5 class="item__hover__header-xs"><a href="https://github.com/zsofi777/audio-player">open in GitHub</a></h5>
 						
-							<a href="https://raw.githubusercontent.com/zsofi777/figma-projects/master/Chat.jpg" rel="nofollow" class="item__hover__zoom" title="Figma chat app">
-								<img src="https://raw.githubusercontent.com/zsofi777/figma-projects/master/Chat.jpg" alt>
-								+&nbsp;Zoom
-							</a>
-
-						</div>
+						<a href="https://raw.githubusercontent.com/zsofi777/audio-player/master/screenShots/screenShot1.jpg" rel="nofollow" class="item__hover__zoom" title="audio player">
+							<img src="https://raw.githubusercontent.com/zsofi777/audio-player/master/screenShots/screenShot1.jpg" alt="music player">
+							+&nbsp;Zoom
+						</a>
 					</div>
-				
-					<!-- gallery item5 -->
-					<div class="gallery__item gallery__item_5 col-xs-12 col-sm-6 figma">
-						<div class="gallery__item__hover">
-							<span class="item__hover__line"></span><span class="item__hover__tag">Figma</span>
-							
-							<h3 class="item__hover__header"><a href="sub5.html">made with Figma</h3></a>
-							<h4 class="item__hover__header-small">a webshop app</h4>
-							<h5 class="item__hover__header-xs"><a href="https://github.com/zsofi777/figma-projects">open in GitHub</a></h5>
-						
-							<a href="https://raw.githubusercontent.com/zsofi777/figma-projects/master/Webshop.jpg" rel="nofollow" class="item__hover__zoom" title="Figma webshop app">
-								<img src="https://raw.githubusercontent.com/zsofi777/figma-projects/master/Webshop.jpg" alt>
-								+&nbsp;Zoom
-							</a>
-
-						</div>
-					</div>
-
-					<!-- gallery item6 -->
-					<div class="gallery__item gallery__item_6 col-xs-12 col-sm-6 react">
-						<div class="gallery__item__hover">
-							<span class="item__hover__line"></span><span class="item__hover__tag">React</span>
-							
-							<h3 class="item__hover__header"><a href="sub6.html">An RPG game project</h3></a>
-							<h4 class="item__hover__header-small">React / Redux / Saga</h4>
-							<h5 class="item__hover__header-xs"><a href="https://github.com/zsofi777/space-game_frontend">open in GitHub</a></h5>
-						
-							<a href="https://raw.githubusercontent.com/zsofi777/space-game_frontend/master/ScreenShots/screenShot4.jpg" rel="nofollow" class="item__hover__zoom" title="RPG game">
-								<img src="https://raw.githubusercontent.com/zsofi777/space-game_frontend/master/ScreenShots/screenShot4.jpg" alt>
-								+&nbsp;Zoom
-							</a>
-
-						</div>
-					</div>
-
 				</div>
+
+				<!-- gallery item2 -->	
+				<div class="gallery__item gallery__item_2 col-xs-12 col-sm-6 reactnative">
+					<div class="gallery__item__hover">
+						<span class="item__hover__line"></span><span class="item__hover__tag">ReactNative</span>
+						
+						<h3 class="item__hover__header"><a href="sub2.html">a ReactNative mobile app</h3></a>
+						<h4 class="item__hover__header-small">ReactNative / React Hooks / Expo / Nodejs</h4>
+						<h5 class="item__hover__header-xs"><a href="https://github.com/zsofi777/first-mobile-app">open in GitHub</a></h5>
+					
+						<a href="https://raw.githubusercontent.com/zsofi777/first-mobile-app/master/ScreenShots/rnApp1.png" rel="nofollow" class="item__hover__zoom" title="ReactNative mobile app">
+							<img src="https://raw.githubusercontent.com/zsofi777/first-mobile-app/master/ScreenShots/rnApp1.png" alt="ReactNative mobile app">
+							+&nbsp;Zoom
+						</a>
+
+					</div>
+				</div>
+			
+				<!-- gallery item3 -->	
+				<div class="gallery__item gallery__item_3 col-xs-12 col-sm-6 phonegap">
+					<div class="gallery__item__hover">
+						<span class="item__hover__line"></span><span class="item__hover__tag">PhoneGap</span>
+						
+						<h3 class="item__hover__header"><a href="sub3.html"> a PhoneGap portfolio mobile app</h3></a>
+						<h4 class="item__hover__header-small">PhoneGap / jQuery Mobile</h4>
+						<h5 class="item__hover__header-xs"><a href="https://github.com/zsofi777/phonegap_jquery-mobile-app/tree/master/phonegap_jquery-mobile-app">open in GitHub</a></h5>
+						
+						<a href="https://raw.githubusercontent.com/zsofi777/phonegap_jquery-mobile-app/master/screenShots/1.png" rel="nofollow" class="item__hover__zoom" title="PhoneGap mobile app">
+							<img src="https://raw.githubusercontent.com/zsofi777/phonegap_jquery-mobile-app/master/screenShots/1.png" alt="PhoneGap portfolio mobile app">
+							+&nbsp;Zoom
+						</a>
+
+					</div>
+				</div>
+
+				<!-- gallery item4 -->
+				<div class="gallery__item gallery__item_4 col-xs-12 col-sm-6 figma">
+					<div class="gallery__item__hover">
+						<span class="item__hover__line"></span><span class="item__hover__tag">Figma</span>
+						
+						<h3 class="item__hover__header"><a href="sub4.html">made with Figma</h3></a>
+						<h4 class="item__hover__header-small">a chat app</h4>
+						<h5 class="item__hover__header-xs"><a href="https://github.com/zsofi777/figma-projects">open in GitHub</a></h5>
+					
+						<a href="https://raw.githubusercontent.com/zsofi777/figma-projects/master/Chat.jpg" rel="nofollow" class="item__hover__zoom" title="Figma chat app">
+							<img src="https://raw.githubusercontent.com/zsofi777/figma-projects/master/Chat.jpg" alt="Figma chat">
+							+&nbsp;Zoom
+						</a>
+
+					</div>
+				</div>
+			
+				<!-- gallery item5 -->
+				<div class="gallery__item gallery__item_5 col-xs-12 col-sm-6 figma">
+					<div class="gallery__item__hover">
+						<span class="item__hover__line"></span><span class="item__hover__tag">Figma</span>
+						
+						<h3 class="item__hover__header"><a href="sub5.html">made with Figma</h3></a>
+						<h4 class="item__hover__header-small">a webshop app</h4>
+						<h5 class="item__hover__header-xs"><a href="https://github.com/zsofi777/figma-projects">open in GitHub</a></h5>
+					
+						<a href="https://raw.githubusercontent.com/zsofi777/figma-projects/master/Webshop.jpg" rel="nofollow" class="item__hover__zoom" title="Figma webshop app">
+							<img src="https://raw.githubusercontent.com/zsofi777/figma-projects/master/Webshop.jpg" alt="Figma webshop">
+							+&nbsp;Zoom
+						</a>
+
+					</div>
+				</div>
+
+				<!-- gallery item6 -->
+				<div class="gallery__item gallery__item_6 col-xs-12 col-sm-6 react">
+					<div class="gallery__item__hover">
+						<span class="item__hover__line"></span><span class="item__hover__tag">React</span>
+						
+						<h3 class="item__hover__header"><a href="sub6.html">An RPG game project</h3></a>
+						<h4 class="item__hover__header-small">React / Redux / Saga</h4>
+						<h5 class="item__hover__header-xs"><a href="https://github.com/zsofi777/space-game_frontend">open in GitHub</a></h5>
+					
+						<a href="https://raw.githubusercontent.com/zsofi777/space-game_frontend/master/ScreenShots/screenShot4.jpg" rel="nofollow" class="item__hover__zoom" title="RPG game">
+							<img src="https://raw.githubusercontent.com/zsofi777/space-game_frontend/master/ScreenShots/screenShot4.jpg" alt="RPG game">
+							+&nbsp;Zoom
+						</a>
+
+					</div>
+				</div>
+				</div>
+			
 			<!-- button load more	 -->
 				<button class="gallery__button">
 					<div class="preloader" hidden>
-						<img class="preloader__inside" src="images/icons/load0.gif" alt>
+						<img class="preloader__inside" src="images/icons/load0.gif" alt="color wheel">
 					</div>
 					<span class="button-text">Load more</span>
 				</button>
 			</div>
 		</div>
 	</section>
-<!--
-	<!-- clients and contacts section 
+	
+	<!-- clients and contacts section -->
 	<section class="clients-and-contacts section">
+		<!--
 		<section id="clients" class="clients">
 			<div class="container">
 				<div class="clients__header row">
 					<h2 class="col-xs-12 col-md-9">Clients Say</h2>
-
+-->
 				<!-- clients controls 
 					<div class="clients__controls col-xs-12 col-md-3">
 						<div class="clients__arrow clients__arrow_back">
@@ -368,7 +421,7 @@
 							<div class="clients__arrow__line-short clients__arrow__line-down"></div>
 
 						</div>
-
+-->				
 				<!-- clients counter 
 						<div class="clients__counter">&nbsp;<span class="clients__counter__item clients__counter__item1">1&nbsp;</span> / <span class="clients__counter__item clients__counter__item2">&nbsp;4</span>&nbsp;</div>
 
@@ -381,7 +434,7 @@
 						</div>
 					</div>
 				</div>
-
+-->
 			<!-- clients carousel container 
 				<div id="clients" class="clients__comment section">
 					<div class="owl-carousel owl-theme">
@@ -425,16 +478,18 @@
 				</div>
 			</div>
 		</section>
-	-->
+-->
 		<!--	Contact us
 	*********************************
-		<div class="map"></div>-->
+		<div class="map col-xs-12 col-sm-6"></div>-->
 	
 		<footer class="contact container">
 			<div class="row">
+
 				<div class="contact__inf col-xs-12 col-sm-6">
+
 					<h2 id="contact" class="section">Contact me</h2>
-					<hr class="services__line" id="about_line">
+					<hr class="contact__line">
 
 					<p class="contact__text">
 							Give me a
@@ -443,27 +498,30 @@
 					</p>
 
 					<address class="contact__address">
-						or find me on social:
+							or find me on social:
 					</address>
 
 			<!-- social networks -->
+					<div class="social">
 						<div class="social__link-and-icon">
 							<span class="icon icon-link"></span><a class="social__link" href="https://linkedin.com/in/kovagozsofia">
 								<i class="fab fa-linkedin-in" aria-hidden="true"></i>
-							LinkedIn<span class="social__link_underline"></span></a>							
+									LinkedIn<span class="social__link_underline"></span></a>							
 						</div>
 						<div class="social__link-and-icon">
 							<span class="icon icon-git"></span><a class="social__link" href="https://github.com/zsofi777">
 								<i class="fab fa-github-alt" aria-hidden="true"></i>
-							GitHub<span class="social__link_underline"></span></a>							
-						</div>
+								GitHub<span class="social__link_underline"></span></a>							
+						</div>						
 					</div>
 
 				</div>
+
 				<div class="contactImg"></div>
+
 			</div>
 		</footer>
-
+		
 		<!--	clients logos
 	*********************************
 		<section class="clients-logos container">
@@ -477,13 +535,14 @@
 				<img class="clients-logos__image" src="images/icons/jumber.png" alt="Lumber">
 			</div>
 		</section>
+		-->
 	</section>
-
-	<!-- google map
+	
+	<!-- google map -->
 	<script async defer src ="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjYhHbI6v_VpjiLZC0R4j5lHkTzMhuhys&callback=initMap">
 	</script>
-	     costumisation if the map 
-	<script src="js/map.js"></script>	-->
+	<!-- castomisation if the map -->
+	<script src="js/map.js"></script>
 	<!-- jQuery -->
 	<script src="js/libs/jquery.min.js"></script>
 	<!-- carousel -->
@@ -519,7 +578,7 @@
 	<script src="js/load_more.js"></script>
 	<!-- load more settings -->
 	<script>
-        items_set = [
+         items_set = [
          	{
          	 filter: 'vuejs',
              backgroundImage: 'https://raw.githubusercontent.com/zsofi777/vue-binding/master/screenShots/screenShot1.jpg',
@@ -617,9 +676,8 @@
              title: 'Figma API'
 					 },
         ];
-
         $('.gallery__items').portfolio_addon({
-            load_count : 4,
+            load_count : 2,
             items : items_set
         });
     </script>

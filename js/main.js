@@ -75,11 +75,11 @@ $('a').smoothScroll({
 
 //	skills owl-carousel
 //	***********************************
-var owl = $("#skills .owl-carousel"),
-next = $(".arrow_front"),
-prev = $(".arrow_back");
+var owl1 = $(".skills .owl-carousel"),
+next = $(".skills_arrow_front"),
+prev = $(".skills_arrow_back");
 
-owl.owlCarousel({
+owl1.owlCarousel({
 	loop: true,
 	margin: 10,
 	responsiveClass: true,
@@ -99,24 +99,24 @@ owl.owlCarousel({
 });
 
 // Go to the next item
-$('.arrow_front').click(function(event) {
-		owl.trigger('next.owl.carousel');
+$('.skills_arrow_front').click(function(event) {
+		owl1.trigger('next.owl.carousel');
 });
 
 // Go to the previous item
-$('.arrow_back').click(function(event) {
+$('.skills_arrow_back').click(function(event) {
 		// With optional speed parameter
 		// Parameters has to be in square bracket '[]'
-		owl.trigger('prev.owl.carousel', [300]);
+		owl1.trigger('prev.owl.carousel', [300]);
 });
 
 //	services owl-carousel
 //	***********************************
-		var owl = $("#services .owl-carousel"),
-		next = $(".arrow_front"),
-		prev = $(".arrow_back");
+		var owl2 = $(".services .owl-carousel"),
+		next = $(".services_arrow_front"),
+		prev = $(".services_arrow_back");
 
-		owl.owlCarousel({
+		owl2.owlCarousel({
 			loop: true,
 			margin: 10,
 			responsiveClass: true,
@@ -136,20 +136,20 @@ $('.arrow_back').click(function(event) {
 		});
 
 		// Go to the next item
-		$('.arrow_front').click(function(event) {
-		    owl.trigger('next.owl.carousel');
+		$('.services_arrow_front').click(function(event) {
+		    owl2.trigger('next.owl.carousel');
 		});
 
 		// Go to the previous item
-		$('.arrow_back').click(function(event) {
+		$('.services_arrow_back').click(function(event) {
 		    // With optional speed parameter
 		    // Parameters has to be in square bracket '[]'
-		    owl.trigger('prev.owl.carousel', [300]);
+		    owl2.trigger('prev.owl.carousel', [300]);
 		});
 	
 //	clients owl-carousel setup
 //	***********************************
-		var owl2 = $("#clients .owl-carousel"),
+		var owl3 = $("#clients .owl-carousel"),
 			clientsItems = $("#clients .item").length,
 			clientsCurrentItem = 1;
 
@@ -160,7 +160,7 @@ $('.arrow_back').click(function(event) {
 			allCount.text(clientsItems);
 			current.text(clientsCurrentItem);
 
-		owl2.owlCarousel({
+		owl3.owlCarousel({
 			loop: true,
 			margin: 10,
 			responsiveClass: true,
@@ -174,11 +174,11 @@ $('.arrow_back').click(function(event) {
 			if(clientsCurrentItem == clientsItems) {
 				clientsCurrentItem = 1;
 				current.text(clientsCurrentItem);
-				owl2.trigger('next.owl.carousel');
+				owl3.trigger('next.owl.carousel');
 			} else {
 				clientsCurrentItem++;
 				current.text(clientsCurrentItem);
-				owl2.trigger('next.owl.carousel');
+				owl3.trigger('next.owl.carousel');
 			}
 		});
 
@@ -187,13 +187,13 @@ $('.arrow_back').click(function(event) {
 			if(clientsCurrentItem == 1) {
 				clientsCurrentItem = clientsItems;
 				current.text(clientsCurrentItem);
-				owl2.trigger('prev.owl.carousel', [300]);
+				owl3.trigger('prev.owl.carousel', [300]);
 			} else {
 				clientsCurrentItem--;
 				current.text(clientsCurrentItem);
 				// With optional speed parameter
 		    	// Parameters has to be in square bracket '[]'
-		    	owl2.trigger('prev.owl.carousel', [300]);
+		    	owl3.trigger('prev.owl.carousel', [300]);
 			}
 		});
 	
@@ -232,7 +232,7 @@ $('.arrow_back').click(function(event) {
 			},
 			zoom: {
 				enabled: true,
-				duration: 300, // don't forget to change the duration also in CSS
+				duration: 300, // don't foget to change the duration also in CSS
 				opener: function(element) {
 					return element.find('img');
 				}
