@@ -400,7 +400,7 @@ hr.about__line {
   width: 100%;
   margin-top: 60px;
   margin-bottom: 0px;
-  border-top: 1px solid #6a2eb3;
+  border-top: 4px solid #6a2eb3;
 }
 
 .about:after{
@@ -553,7 +553,8 @@ hr.skills__line {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 0px;
-  border-color: transparent;
+	border-color: transparent;
+	border-width: 2px;
 }
 
 .fa-angle-right {
@@ -599,7 +600,7 @@ hr.services__line{
 	width: 100%;
   margin-top: -25px;
   margin-bottom: 0px;
-  border-top: 1px solid #6a2eb3;
+  border-top: 4px solid #6a2eb3;
 }
 
 .services__item{
@@ -650,7 +651,7 @@ hr.services__line{
 hr.projects__line {
   width: 100%;
   margin-bottom: 50px;
-  border-top: 1px solid #6a2eb3;
+  border-top: 4px solid #6a2eb3;
 }
 
 .works__header:after{
@@ -1408,7 +1409,7 @@ hr.contact__line {
   width: 100%;
   margin-top: 20px;
   margin-bottom: 60px;
-  border-top: 1px solid #6a2eb3;
+  border-top: 4px solid #6a2eb3;
 }
 
 .contact__inf{
@@ -1438,7 +1439,7 @@ hr.contact__line {
 }
 
 .contact__address{
-	margin-bottom: 45px;
+	margin-bottom: 30px;
 	font-style: normal;
 	line-height: 28px;
 }
@@ -1488,7 +1489,7 @@ hr.contact__line {
 .social__link,
 .social__link:hover,
 .social__link:focus{
-	margin-left: 5px;
+	margin-left: 2px;
 	color: rgb(51, 51, 51);
 	text-decoration: none;
 }
