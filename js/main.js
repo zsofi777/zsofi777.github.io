@@ -66,7 +66,7 @@ $('a').smoothScroll({
 		pointerNext.removeClass("pointer_next_show");
 	});
 	
-//	start plaing video
+//	start playing video
 //	***********************************
 	$(".poster__play-button").on('click', function(){
 		$(".video__item_poster").addClass("poster_hide");
