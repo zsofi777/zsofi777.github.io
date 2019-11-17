@@ -1580,6 +1580,36 @@ hr.contact__line {
 	}
 }
 
+.demo__button:link{
+	display: inline-block;
+	padding: 13px 40px;
+	margin-top: 0px;
+	margin-left: 85px;
+	color: white;
+	font-weight: 700;
+	text-decoration: none;
+	border: 1px solid #2bf4a1;
+	-webkit-transition: background-color .3s;
+	-o-transition: background-color .3s;
+	transition: background-color .3s;
+}
+
+.demo__button:hover{
+	color: white;
+	text-decoration: none;
+	background-color: #2bf4a1;
+}
+
+.demo__button:visited{
+	color: white;
+	text-decoration: none;
+	border: 1px solid #2bf4a1;
+}
+
+.demo__button:focus{
+	outline: none;
+}
+
 /*media query for tablets *******************************/
 
 @media only screen and (min-width: 1921px){
