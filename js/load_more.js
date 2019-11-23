@@ -20,7 +20,7 @@
             $(this).addClass("gallery__button_preloading");
         	// set count of loading images
         	img_per_load = addon_options.load_count;
-        	// reset last itages set
+        	// reset last images set
         	$newEls = '';
         	
         	if(!img_count) {
@@ -37,7 +37,7 @@
         	alreadyAdded = addon_el.find('.av-added').length;
             // Creating elements
             while(img_per_load) {
-                $newEls += '<div class="av-added gallery__item col-xs-12 col-sm-6 ' + addon_options.items[alreadyAdded].filter + '" style="background-image: url(' + addon_options.items[alreadyAdded].backgroundImage + ')"><div class="gallery__item__hover"><span class="item__hover__line"></span><span class="item__hover__tag">' + addon_options.items[alreadyAdded].tagName + '</span>' + '<h3 class="item__hover__header"><a href="' + addon_options.items[alreadyAdded].headingHref + '">' + addon_options.items[alreadyAdded].heading + '</a></h3><h4 class="item__hover__header-small">' + addon_options.items[alreadyAdded].headingSmall + '</h4><h5 class="item__hover__header-xs"><a href="' + addon_options.items[alreadyAdded].headingXsHref + '">' + addon_options.items[alreadyAdded].headingXs + '</a></h5><a href="' + addon_options.items[alreadyAdded].img + '" rel="nofollow" class="item__hover__zoom" title="' + addon_options.items[alreadyAdded].title + '"><img src="' + addon_options.items[alreadyAdded].img + '" alt>+&nbsp;Zoom</a></div></div>\n';
+                $newEls += '<div class="av-added gallery__item col-xs-12 col-sm-6 ' + addon_options.items[alreadyAdded].filter + '" style="background-image: url(' + addon_options.items[alreadyAdded].backgroundImage + ')"><div class="gallery__item__hover"><span class="item__hover__line"></span><span class="item__hover__tag">' + addon_options.items[alreadyAdded].tagName + '</span>' + '<h3 class="item__hover__header"><a href="' + addon_options.items[alreadyAdded].headingHref + '">' + addon_options.items[alreadyAdded].heading + '</a></h3><h4 class="item__hover__header-small">' + addon_options.items[alreadyAdded].headingSmall + '</h4><h5 class="item__hover__header-xs"><a href="' + addon_options.items[alreadyAdded].headingXsHref + '" target="_blank">' + addon_options.items[alreadyAdded].headingXs + '</a></h5><a href="' + addon_options.items[alreadyAdded].img + '" rel="nofollow" class="item__hover__zoom" title="' + addon_options.items[alreadyAdded].title + '"><img src="' + addon_options.items[alreadyAdded].img + '" alt>+&nbsp;Zoom</a></div></div>\n';
 
             	img_per_load--;
             	alreadyAdded++;
