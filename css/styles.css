@@ -952,11 +952,7 @@ hr.projects__line {
 }
 
 .gallery__item_5 {
-  background-image: url(https://raw.githubusercontent.com/zsofi777/figma-projects/master/Webshop.jpg);
-}
-
-#item16 {
-  background-image: url(https://raw.githubusercontent.com/zsofi777/figma-projects/master/Webshop.jpg);
+  background-image: url(https://raw.githubusercontent.com/zsofi777/teacher-site/master/screenShots/1.png);
 }
 
 .gallery__item_6 {
@@ -1079,6 +1075,37 @@ hr.projects__line {
   background-image: url(https://images.ctfassets.net/1khq4uysbvty/5PMX6plL4Qso8i84eKMmq/415626d89b71eeedb6d4af551bdb1cd6/Figma_API_Meta.png);
 }
 
+#item16 {
+  background-image: url(https://raw.githubusercontent.com/zsofi777/figma-projects/master/Webshop.jpg);
+}
+
+#item46 {
+  background-image: url(https://raw.githubusercontent.com/zsofi777/teacher-site/master/screenShots/1.png);
+}
+
+#item47 {
+  background-image: url(https://raw.githubusercontent.com/zsofi777/teacher-site/master/screenShots/2.png);
+}
+
+#item48 {
+  background-image: url(https://raw.githubusercontent.com/zsofi777/teacher-site/master/screenShots/3.png);
+}
+
+#item49 {
+  background-image: url(https://raw.githubusercontent.com/zsofi777/teacher-site/master/screenShots/4.png);
+}
+
+#item50 {
+  background-image: url(https://raw.githubusercontent.com/zsofi777/teacher-site/master/screenShots/5.png);
+}
+
+#item51 {
+  background-image: url(https://raw.githubusercontent.com/zsofi777/teacher-site/master/screenShots/6.png);
+}
+
+#item52 {
+  background-image: url(https://raw.githubusercontent.com/zsofi777/teacher-site/master/screenShots/7.png);
+}
 
 .gallery__button{
 	display: block;
