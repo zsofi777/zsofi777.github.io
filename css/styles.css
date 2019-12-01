@@ -2094,3 +2094,14 @@ hr.contact__line {
     font-size: 30%;
   }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 360px){
+	.social__link-and-icon{
+		margin-right: 1px;
+	}
+	.social__link{
+		margin: 0px;
+		font-size: 15px;
+	}
+}
+
