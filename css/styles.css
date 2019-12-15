@@ -263,10 +263,9 @@ ul, ol {
 	color: #fff;
 }
 
-#wannabe {
+p.item__text span.word3 {
   color: #00FAEB;
   padding: 0px;
-  font-size: 50%;
 }
 
 .pointer-container{
@@ -1105,6 +1104,10 @@ hr.projects__line {
 
 #item52 {
   background-image: url(https://raw.githubusercontent.com/zsofi777/teacher-site/master/screenShots/7.png);
+}
+
+#item53 {
+  background-image: url(https://raw.githubusercontent.com/zsofi777/figma-projects/master/DiabetesApp.jpg);
 }
 
 .gallery__button{
