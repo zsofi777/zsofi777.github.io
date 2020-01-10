@@ -1671,13 +1671,13 @@ hr.contact__line {
     width: 32%;
   }
 }
-
+/*
 @media only screen and (min-width: 1200px) {
   h2.skills__header {
     margin-left: -105px;
   }
 }
-
+*/
 @media only screen and (min-width: 1024px) {
   .clients-logos {
     left: 0;
@@ -1921,6 +1921,10 @@ hr.contact__line {
     font-size: 14px;
   }
 
+  span.item__text.wannabe {
+    font-size: 10px !important;
+  }
+
   .item__text_big {
     margin-top: 10px;
     font-size: 21px;
@@ -2098,10 +2102,6 @@ hr.contact__line {
 
   .mfp-bottom-bar {
     left: -198px;
-  }
-
-  #wannabe {
-    font-size: 30%;
   }
 }
 
