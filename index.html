@@ -59,7 +59,7 @@
 		<div class="slider__item slider__item_1">
 			<div class="container">
 				<div class="slider__wrapper">
-					<span class="item__text">Hi, my name is Zsofi and I'm a Front-End Developer &</span><span class="item__text wannabe" style="color:#00faeb; padding: 0px; font-size: 50%;">wannabe</span><span class="item__text">UI designer.</span>
+					<span class="item__text">Hi, my name is Zsofi and I'm a Front-End Developer &<!--</span><span class="item__text wannabe" style="color:#00faeb; padding: 0px; font-size: 50%;">wannabe</span><span class="item__text">--> UI designer.</span>
 					<h1 class="item__text item__text_big">I'm focused on creating coherent and aesthetically pleasing visual languages.</h1>
 				</div>
 			</div>
@@ -118,6 +118,7 @@
 						I also love documenting my journey and sharing it with the community to help others succeed and grow.
 						</p>
 					<a href="/CV.pdf" rel="nofollow" class="text__button" target="_blank">Check out my CV</a>
+					<a href="https://zsofi777.github.io/blog/" rel="nofollow" class="text__button" target="_blank" style="margin-left: 10%;">and my blog</a>
 				</div>
 				<div class="about__right-column col-xs-12 col-md-6"></div>
 			</div>
@@ -388,7 +389,7 @@
 					<div class="preloader" hidden>
 						<img class="preloader__inside" src="images/icons/load.gif" alt="color wheel">
 					</div>
-					<span class="button-text">Load more</span>
+					<span class="button-text">Load all</span>
 				</button>
 			</div>
 		</div>
@@ -431,7 +432,12 @@
 								<span class="icon icon-link"></span><a class="social__link" href="https://www.behance.net/zsofi777" target="_blank">
 									<i class="fab fa-behance" aria-hidden="true"></i>
 										Behance<span class="social__link_underline"></span></a>							
-							</div>						
+						</div>
+						<div class="social__link-and-icon">
+							<span class="icon icon-link"></span><a class="social__link" href="https://www.instagram.com/zsofikovago/" target="_blank">
+								<i class="fab fa-instagram" aria-hidden="true"></i>
+									Instagram<span class="social__link_underline"></span></a>							
+					</div>
 					</div>
 
 				</div>
@@ -627,9 +633,33 @@
 				img: 'https://raw.githubusercontent.com/zsofi777/figma-projects/master/Webshop2.png',
 				title: 'Figma webshop'
 			},
+			{				
+				filter: 'javascript',
+				backgroundImage: 'https://raw.githubusercontent.com/zsofi777/tsmk/master/1.png',
+				tagName: 'Javascript',
+				headingHref: 'sub19.html',
+				heading: 'a pandemic research site ⇦',
+				headingSmall: 'javascript / html / css',
+				headingXsHref: 'http://tsmk.hu/',
+				headingXs: 'live',
+				img: 'https://raw.githubusercontent.com/zsofi777/tsmk/master/1.png',
+				title: 'Pandemic research site'
+			},
+			{				
+				filter: 'figma',
+				backgroundImage: 'https://raw.githubusercontent.com/zsofi777/parklApp/master/P9.png',
+				tagName: 'Figma',
+				headingHref: 'sub20.html',
+				heading: 'a parking app redesign ⇦',
+				headingSmall: 'made with Figma',
+				headingXsHref: 'https://www.canva.com/design/DAD5XLg6Uh0/KhlPq3csjPwkPnviR-gSTg/view?utm_content=DAD5XLg6Uh0&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton',
+				headingXs: 'open presentation',
+				img: 'https://raw.githubusercontent.com/zsofi777/parklApp/master/P9.png',
+				title: 'Figma parklApp'
+			},
 		];
 		$('.gallery__items').portfolio_addon({
-				load_count : 2,
+				load_count : 14,
 				items : items_set
 		});
   </script>
