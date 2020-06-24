@@ -1347,18 +1347,22 @@ hr.projects__line {
 }
 
 .preloader {
-  width: 45px;
+  border: 6px solid rgb(240, 240, 240);
+  border-radius: 50%;
+  border-top: 6px solid #FF9ACD;
+  width: 40px;
+  height: 40px;
   margin-left: -12.5px;
   margin-top: -12.5px;
   position: absolute;
-  top: 30%;
-  left: 50%;
+  top: 37%;
+  left: 45%;
+  animation: spin 2s linear infinite;
 }
 
-.preloader__inside {
-  max-width: 100%;
-  position: absolute;
-  right: 10px;
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 .item__hover__zoom img {
