@@ -391,20 +391,21 @@ p.item__text#and span.word3 {
 /*about *******************************/
 
 .aboutImg {
-  width: 400px;
-  height: 400px;
+  width: 450px;
+  height: 450px;
   position: absolute;
   background: url(https://image.myanimelist.net/ui/_3fYL8i6Q-n-155t3dn_4jDknYN0aCPtudyMf63Csj0WcqbLRuyEIHKcG7ADvf27);
   background-repeat: no-repeat;
-  left: 60%;
-  margin-top: 120px;
+  left: 58%;
+  margin-top: 8.8%;
   z-index: -1;
 }
 
 .about {
   width: 100%;
   font-size: 16px;
-  padding: 15px;
+  padding-top: 80px;
+  padding-bottom: 110px;
 }
 
 h2.text__header {
@@ -413,7 +414,7 @@ h2.text__header {
 
 hr.about__line {
   width: 100%;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-bottom: 0px;
   border-top: 4px solid #009B47;
 }
@@ -436,8 +437,6 @@ hr.about__line {
 .text__button:link {
   display: inline-block;
   padding: 13px 16px;
-  margin-top: 20px;
-  margin-bottom: 80px;
   color: rgb(51, 51, 51);
   font-weight: 700;
   text-decoration: none;
@@ -578,7 +577,8 @@ div.skills_arrow.skills_arrow_front {
 .skills__item__text {
   line-height: 28px;
   text-align: justify;
-  font-size: 14px;
+  font-size: 16px;
+  margin-bottom: 0px;
 }
 
 hr.skills__line {
@@ -596,7 +596,7 @@ hr.skills__line {
 /*services *******************************/
 
 #services {
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 .services {
@@ -613,10 +613,6 @@ hr.skills__line {
   clear: both;
 }
 
-.services__header-block {
-  padding-bottom: 65px;
-}
-
 .services__header {
   padding: 0px;
   margin: 0px;
@@ -630,7 +626,7 @@ hr.skills__line {
 
 hr.services__line {
   width: 100%;
-  margin-top: -25px;
+  margin-top: 40px;
   margin-bottom: 0px;
   border-top: 4px solid #FF9ACD;
 }
@@ -669,20 +665,19 @@ hr.services__line {
 
 /*works gallery *******************************/
 
-.works__header {
-  padding-top: 50px;
-  padding-bottom: 30px;
-  padding-left: 15px;
-  padding-right: 15px;
+#projects {
+  padding-top: 80px;
+  padding-bottom: 110px;
 }
 
+
+
 #projects__h2 {
-  margin-bottom: 70px;
+  margin: 0px 0px 40px 0px;
 }
 
 hr.projects__line {
-  width: 100%;
-  margin-bottom: 50px;
+  width: 97%;
   border-top: 4px solid #009B47;
 }
 
@@ -1481,42 +1476,43 @@ hr.projects__line {
   margin-top: -1px;
 }
 
-/*clients *******************************/
+/*contact *******************************/
 
-.clients-and-contacts {
+.contacts-and-contacts {
   position: relative;
-}
-
-.clients {
-  background-color: #161616;
+  background-color: #009B47;
   color: #fff;
 }
 
-.clients__header {
+.contact {
+  color: #fff;
+}
+
+.contact__header {
   padding-top: 110px;
   padding-bottom: 65px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.clients__header:after {
+.contact__header:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.clients__controls {
+.contact__controls {
   position: relative;
   top: 60px;
   text-align: right;
 }
 
-.clients__comment:after {
+.contact__comment:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.clients__arrow {
+.contact__arrow {
   width: 32px;
   display: inline-block;
   width: 32px;
@@ -1529,33 +1525,33 @@ hr.projects__line {
   transition: color 0.3s;
 }
 
-.clients__arrow:hover {
+.contact__arrow:hover {
   color: #FF9ACD;
 }
 
-.clients__arrow_back {
+.contact__arrow_back {
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
-.clients__arrow_gray {
+.contact__arrow_gray {
   color: #777;
   cursor: initial;
 }
 
-.clients__arrow__line {
+.contact__arrow__line {
   width: 100%;
   border-top: 1px solid;
 }
 
-.clients__arrow__line-short {
+.contact__arrow__line-short {
   width: 50%;
   border-top: 1px solid;
   margin-left: auto;
 }
 
-.clients__arrow__line-up {
+.contact__arrow__line-up {
   -webkit-transform-origin: right top;
   -ms-transform-origin: right top;
   transform-origin: right top;
@@ -1565,7 +1561,7 @@ hr.projects__line {
   margin-bottom: -1px;
 }
 
-.clients__arrow__line-down {
+.contact__arrow__line-down {
   -webkit-transform-origin: right bottom;
   -ms-transform-origin: right bottom;
   transform-origin: right bottom;
@@ -1575,7 +1571,7 @@ hr.projects__line {
   margin-top: -1px;
 }
 
-.clients__counter {
+.contact__counter {
   display: inline-block;
   margin-left: 5px;
   margin-right: 5px;
@@ -1583,16 +1579,16 @@ hr.projects__line {
   top: -5px;
 }
 
-.clients__counter__item2 {
+.contact__counter__item2 {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.clients__comment {
+.contact__comment {
   padding-top: 65px;
   padding-bottom: 365px;
 }
 
-.clients__comment__item:after {
+.contact__comment__item:after {
   content: "";
   display: table;
   clear: both;
@@ -1616,15 +1612,13 @@ hr.projects__line {
 /*contact *******************************/
 
 .contactImg {
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 100%;
   float: right;
   position: absolute;
   background: url(/images/photos/contact.jpg);
   background-repeat: no-repeat;
-  left: 50%;
-  margin: 30px 0px;
-  z-index: -1;
+  left: 51%;
 }
 
 .contact:after {
@@ -1634,21 +1628,20 @@ hr.projects__line {
 }
 
 h2#contact.section {
-  margin-bottom: 60px;
+  margin: 0px;
 }
 
 hr.contact__line {
   width: 100%;
-  margin-top: 20px;
-  margin-bottom: 60px;
+  margin-top: 40px;
+  margin-bottom: 25px;
   border-top: 4px solid #FF9ACD;
 }
 
 .contact__inf {
-  padding-top: 120px;
+  padding-top: 80px;
   padding-bottom: 10px;
-  font-size: 16px;
-  color: rgb(51, 51, 51);
+  font-size: 18px;
 }
 
 .contact__text {
@@ -1657,26 +1650,26 @@ hr.contact__line {
 }
 
 .contact__tel {
-  color: #009B47;
+  color: #FF9ACD;
   text-decoration: none;
 }
 
 .contact__tel:hover,
 .contact__tel:focus {
   font-weight: bold;
-  color: #009B47;
+  color: #FF9ACD;
   text-decoration: none;
 }
 
 .contact__email {
-  color: #009B47;
+  color: #FF9ACD;
   text-decoration: none;
 }
 
 .contact__email:hover,
 .contact__email:focus {
   font-weight: bold;
-  color: #009B47;
+  color: #FF9ACD;
   text-decoration: none;
 }
 
@@ -1693,7 +1686,7 @@ hr.contact__line {
 .social__link-and-icon {
   display: inline-block;
   margin-right: 20px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .social__link-and-icon:last-child {
@@ -1709,7 +1702,7 @@ hr.contact__line {
 }
 
 .social__link-and-icon:hover .social__link {
-  color: #009B47;
+  color: #FF9ACD;
 }
 
 .social__link {
@@ -1729,7 +1722,7 @@ hr.contact__line {
 .social__link:hover,
 .social__link:focus {
   margin-left: 2px;
-  color: rgb(51, 51, 51);
+  color: #fff;
   text-decoration: none;
 }
 
@@ -1760,7 +1753,7 @@ hr.contact__line {
 
 /*logos on green background *******************************/
 
-.clients-logos {
+.contact-logos {
   padding: 15px 0;
   background-color: #FF9ACD;
   position: absolute;
@@ -1770,17 +1763,17 @@ hr.contact__line {
   margin-top: -290px;
 }
 
-.clients-logos:after {
+.contact-logos:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.clients-logos__wrapper {
+.contact-logos__wrapper {
   text-align: center;
 }
 
-.clients-logos__image {
+.contact-logos__image {
   width: 33.33%;
   max-width: 370px;
   padding: 0 15px;
@@ -1794,7 +1787,7 @@ hr.contact__line {
   transition: filter 0.3s, -webkit-filter 0.3s;
 }
 
-.clients-logos__image:hover {
+.contact-logos__image:hover {
   -webkit-filter: opacity(1);
   filter: opacity(1);
 }
@@ -1867,12 +1860,12 @@ hr.contact__line {
 }
 
 @media only screen and (max-width: 1200px) {
-  .clients-logos {
+  .contact-logos {
     left: 0;
     right: 0;
   }
 
-  .clients-logos__image {
+  .contact-logos__image {
     width: 32%;
   }
 }
@@ -1884,13 +1877,13 @@ hr.contact__line {
 }
 */
 @media only screen and (min-width: 1024px) {
-  .clients-logos {
+  .contact-logos {
     left: 0;
     right: 0;
     margin-top: -250px;
   }
 
-  .clients-logos__image {
+  .contact-logos__image {
     width: 32%;
   }
 }
@@ -2038,18 +2031,18 @@ hr.contact__line {
     height: 50vh;
   }
 
-  .clients__controls {
+  .contact__controls {
     text-align: left;
     top: 0;
   }
 
-  .clients-logos {
+  .contact-logos {
     left: 0;
     right: 0;
     margin-top: -100px;
   }
 
-  .clients-logos__image {
+  .contact-logos__image {
     width: 32%;
   }
 
@@ -2097,7 +2090,7 @@ hr.contact__line {
     height: 400px;
   }
 
-  .clients-logos {
+  .contact-logos {
     left: 0;
     right: 0;
     margin-top: -100px;
@@ -2295,13 +2288,13 @@ hr.contact__line {
     height: 400px;
   }
 
-  .clients-logos {
+  .contact-logos {
     left: 0;
     right: 0;
     margin-top: -100px;
   }
 
-  .clients-logos__image {
+  .contact-logos__image {
     width: 45%;
   }
 
